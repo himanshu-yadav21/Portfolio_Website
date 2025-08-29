@@ -7,7 +7,7 @@ nav{
     justify-content: space-between;
     /* background-color: rgb(13, 45, 101); */
     background-image: linear-gradient(to left, blue, rgb(9, 35, 47));
-    padding: 26px;
+    padding: 13px;
 }
 .logo{
     font-size: 42px;
@@ -26,4 +26,32 @@ nav ul li{
     font-size: 30px;
     color: white;
     font-family: "Caveat", cursive;
+}
+.hero{
+    background-color: #4e4394;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-left .one{
+    font-size: 50px;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.hero-left .two{
+    font-size: 30px;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.bold{
+    font-weight: bold;
+    font-family: "Londrina Shadow", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+}
+.hero-right .dev{
+    height: 494px;
 }
