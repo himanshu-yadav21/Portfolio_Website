@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(13, 45, 101); */
+    background-image: linear-gradient(to left, blue, rgb(9, 35, 47));
+    padding: 26px;
+}
+.logo{
+    font-size: 23px;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+}
+nav ul {
+    display: flex;
+    gap: 33px;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+}
