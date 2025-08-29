@@ -8,6 +8,8 @@ nav{
     /* background-color: rgb(13, 45, 101); */
     background-image: linear-gradient(to left, blue, rgb(9, 35, 47));
     padding: 13px;
+    border: 2px solid black;
+    border-radius: 1px;
 }
 .logo{
     font-size: 42px;
@@ -28,19 +30,24 @@ nav ul li{
     font-family: "Caveat", cursive;
 }
 .hero{
-    background-color: #4e4394;
+    /* background-color: #4e4394; */
+    /* background-image: linear-gradient(to right, rgb(76, 76, 232),lightblue); */
+    background-image: linear-gradient(to left, rgb(33, 50, 239), rgb(9, 35, 47));
     height: 80vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
     align-items: center;
 }
 .hero-left .one{
     font-size: 50px;
+    color: white;
     font-family: "Nerko One", cursive;
     font-weight: 400;
     font-style: normal;
 }
 .hero-left .two{
+    color: white;
     font-size: 30px;
     font-family: "Nerko One", cursive;
     font-weight: 400;
@@ -54,4 +61,20 @@ nav ul li{
 }
 .hero-right .dev{
     height: 494px;
+    border-radius: 10px;
+}
+.btn-container{
+    padding: 5px;
+}
+.btn{
+    background-color: blueviolet;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bolder;
+    margin: 20px;
 }
