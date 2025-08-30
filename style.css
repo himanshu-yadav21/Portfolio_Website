@@ -37,14 +37,18 @@ nav ul li {
 .hero {
     /* background-color: #4e4394; */
     /* background-image: linear-gradient(to right, rgb(76, 76, 232),lightblue); */
-    background-image: linear-gradient(to left, rgb(33, 50, 239), rgb(9, 35, 47));
+    background-image: linear-gradient(to right, #6d5fcc, rgb(46 65 91));
     height: 80vh;
     display: flex;
     justify-content: center;
     gap: 50px;
     align-items: center;
 }
-
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .hero-left .one {
     font-size: 50px;
     color: white;
@@ -89,6 +93,10 @@ nav ul li {
     font-weight: bolder;
     margin: 20px;
 }
+.btn:hover{
+    background-color: rgb(77, 178, 211);
+    transition: all 0.5s;
+}
 .projects{
     padding: 2px;
 }
@@ -98,6 +106,7 @@ nav ul li {
     background-image: linear-gradient(to right, #6d5fcc, rgb(46 65 91));
     border-top: 2px solid;
     border-color: lightblue;
+    padding: 22px 100px;
 
 }
 
@@ -123,11 +132,27 @@ project-info {
     font-weight: bold;
     padding: 0;
     margin: 1px;
+    font-family: "Londrina Shadow", sans-serif;
+    font-size: 34px;
+    font-weight: bold;
 }
 
 .project-info p {
     padding: 12px 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: italic;
 }
 .row-reverse{
     flex-direction: row-reverse;
+}
+footer{
+    padding: 24px;
+    background-image: linear-gradient(to left, blue, rgb(9, 35, 47));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    color: whitesmoke;
 }
